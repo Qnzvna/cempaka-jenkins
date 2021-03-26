@@ -1,0 +1,27 @@
+<?jelly escape-by-default='true'?>
+<j:jelly xmlns:j="jelly:core" xmlns:f="/lib/form">
+  <f:entry title="Cyclone url" field="cycloneUrl">
+    <f:textbox />
+  </f:entry>
+    <f:entry title="Parcel ID" field="parcelId">
+      <f:textbox />
+    </f:entry>
+    <f:entry title="Test name" field="testName">
+      <f:textbox />
+    </f:entry>
+    <f:entry title="Loop count" field="loopCount">
+      <f:textbox />
+    </f:entry>
+    <f:entry title="Threads number" field="threadsNumber">
+      <f:textbox />
+    </f:entry>
+    <f:entry title="Nodes" field="nodes">
+      <f:textbox />
+    </f:entry>
+    <f:entry title="Parameters" field="parameters">
+      <f:textbox />
+    </f:entry>
+    <f:entry title="Jvm Options" field="jvmOptions">
+      <f:textbox />
+    </f:entry>
+</j:jelly>
